@@ -1,0 +1,446 @@
+.error-message {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 10rem 10px 10rem;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 40px;
+    padding: 0.5rem;
+}
+/* Style du formulaire */
+form {
+    background-color: #4e4e4e;
+    color: #ffffff;
+    border-radius: 10px;
+    text-shadow: 0 0 5px rgba(0, 183, 79, 0.75); /* effet de scintillement */
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 2rem;
+
+}
+
+/* Style des champs de formulaire */
+input[type="text"], input[type="password"] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.sub form{
+    padding: 0.5rem;
+}
+
+/* Style du bouton de soumission */
+input[type="submit"] {
+    width: 90%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.login-container {
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.login-container .suscribe {
+    width: 40%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+input[type="submit"]:hover {
+    /* Couleur verte foncée de la Xbox 360 */
+    background-color: #45a049;
+}
+
+/* Page d'acceuil reste*/
+.success-message {
+    font-family: 'Segoe UI', sans-serif; /* police de caractères utilisée par la Xbox 360 */
+    background-color: #2f2f2f; /* couleur grise foncée de la Xbox 360 */
+    color: #ffffff; /* couleur blanche */
+    padding: 5px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row; /* affichage sur une seule ligne */
+    align-items: center; /* alignement vertical des éléments */
+    width: 25%;
+    margin: 0 auto; /* marges gauche et droite automatiques */
+}
+
+.deco{
+    background-color: #2f2f2f; /* couleur grise foncée de la Xbox 360 */
+    color: #ffffff; /* couleur blanche */
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    font-family: 'Segoe UI', sans-serif;
+    float: right;
+    whidth: 23%;
+    margin-top: -3rem;
+    margin-bottom: 2rem;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container img {
+    width: 50px;
+    height: 50px;
+}
+
+.success-message h1 {
+    font-size: 16px;
+    margin-top: -8px;
+}
+
+/*Acceuil*/
+.subtext p{
+    font-size: 10px; /* taille de la police de caractères réduite */
+    color: #bfbfbf; /* couleur plus claire */
+    margin-bottom: -5px;
+}
+.subtext h1{
+    margin-bottom: -5px;
+}
+
+.welcome-message {
+    float: right;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2f2f2f;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #000000; /* couleur noire */
+    color: #ffffff; /* couleur blanche */
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 #a2a2a2, 0 6px 20px 0 #a2a2a2;
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #ffffff; /* couleur blanche */
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #00b74f; /* couleur verte de la Xbox 360 */
+}
+
+.featured-game {
+    background-color: #000000; /* couleur noire */
+    color: #ffffff; /* couleur blanche */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0; /* supprime la marge en bas de l'élément */
+}
+
+.featured-game img {
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+    margin-bottom: 20px;
+    object-position: 0% 0%;
+}
+
+.featured-game h2 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.featured-game p {
+    font-size: 14px;
+    margin-bottom: 1rem;
+}
+
+.news-section {
+    /* couleur de fond grise foncée de la Xbox 360 */
+    background-color: #2f2f2f;
+    color: #ffffff; /* couleur blanche */
+    /* bordures arrondies */
+    border-radius: 10px;
+    /* ajout de l'effet de scintillement */
+    text-shadow: 0 0 5px rgba(0, 183, 79, 0.75);
+}
+
+.news-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.news-item img {
+    width: 25%;
+    height: 10rem;
+    object-fit: cover;
+    margin-bottom: 20px;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.news-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.news-section h2 {
+    font-size: 28px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 #a2a2a2, 0 6px 20px 0 #a2a2a2;
+    border-radius: 5px;
+    background-color: #g2g2g2;
+    text-align: center;
+}
+
+.news-item p {
+    font-size: 14px;
+}
+
+.news-item a.button {
+    background-color: #00b74f; /* couleur verte de la Xbox 360 */
+    color: #ffffff; /* couleur blanche */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.news-item a.button:hover {
+    background-color: #00a140;
+}
+
+.featured-game .button {
+    background-color: #00b74f; /* couleur verte de la Xbox 360 */
+    border: none;
+    color: #ffffff; /* couleur blanche */
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.featured-game .button:hover {
+    background-color: #2f2f2f; /* couleur verte foncée de la Xbox 360 */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.community-section .community-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.community-section {
+    background: linear-gradient(to top, #a2a2a2, #2f2f2f); /* couleur grise foncée de la Xbox 360 */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #ffffff; /* couleur blanche */
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.community-section h2 {
+    font-size: 28px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+.community-section a {
+    text-decoration: none; /* pas de soulignement */
+    font-weight: bold; /* en gras */
+    color: #2f2f2f; /* couleur verte foncée de l'interface de la Xbox 360 */
+}
+.community-item {
+    width: calc(100% / 3 - 20px); /* 3 éléments par ligne, avec un espacement de 20px entre chaque */
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.community-item img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.community-item h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.community-item p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.community-item .button {
+    background-color: #00b74f; /* couleur verte de la Xbox 360 */
+    border: none;
+    color: #ffffff; /* couleur blanche */
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.community-item .button:hover {
+    background-color: #2f2f2f; /* couleur verte foncée de la Xbox 360 */
+}
+
+footer {
+    background-color: #000000; /* couleur noire */
+    color: #ffffff; /* couleur blanche */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.footer-links a {
+    color: #ffffff; /* couleur blanche */
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.footer-links a:last-of-type {
+    margin-right: 0;
+}
+
+.footer-copyright {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Page jeux */
+
+.games-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.game {
+    background-color: #bfbfbf;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.game img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.game h2 {
+    color: #2f2f2f; /* couleur blanche */
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.game:hover{
+    box-shadow: 0 0 15px rgba(0, 183, 79, 0.75);
+ /*   background-color: #2f2f2f;*/
+}
+
+.game p {
+    color: #3e9143;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.game-tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.game-tags .tag {
+    background-color: #4CAF50; /* couleur verte */
+    color: #ffffff; /* couleur blanche */
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 0 10px 10px 0;
+}
